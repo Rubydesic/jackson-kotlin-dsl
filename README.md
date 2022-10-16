@@ -5,6 +5,20 @@ objects using the tree API (`JsonNode`, `ObjectNode`, etc.) an absolute breeze.
 
 *inspired by [Koson](https://github.com/lectra-tech/koson)*
 
+## Install
+
+Install from JitPack
+
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.Rubydesic:jackson-kotlin-dsl:1.0.0'
+}
+```
+
 ## Examples
 
 ### Construct a Basic Object / Array
