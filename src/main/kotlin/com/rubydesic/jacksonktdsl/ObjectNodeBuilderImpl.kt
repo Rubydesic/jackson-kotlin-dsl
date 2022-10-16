@@ -10,7 +10,7 @@ internal class ObjectNodeBuilderImpl(
     val obj: ObjectNode = nodeFactory.objectNode()
 ) : ObjectNodeBuilder {
 
-    override infix fun String.to(other: Any) {
+    override infix fun String.to(other: Any?) {
         obj.replace(this, nodeFactory.pojoNode(other))
     }
 

@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Rubydesic:jackson-kotlin-dsl:1.0.0'
+    implementation 'com.github.Rubydesic:jackson-kotlin-dsl:1.2.0'
 }
 ```
 

@@ -29,4 +29,11 @@ class JacksonKotlinDslTest : StringSpec({
         println(json.toPrettyString())
     }
 
+    "creates an object with null" {
+        val json = obj {
+            "test" to null
+        }
+
+        json.toString() shouldBe """{"test":null}"""
+    }
 })
